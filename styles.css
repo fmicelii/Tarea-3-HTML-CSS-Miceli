@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+:root{
+    --azul: rgb(0, 140, 255);
+    --gris: rgb(223, 223, 223);
+    --gris2: rgb(61, 61, 61);
+}
+
+
+.cabeza{
+    display: flex;
+    background-color:var(--azul);
+    padding: 8px;
+}
+
+.cabeza li{
+    list-style-type: none;
+    display: inline-block;
+    padding:15px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    border:3px solid black;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+.cabeza a{
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+
+.cabeza img{
+    width: 200px;
+    height: auto;
+    border-radius: 30%;
+}
+
+main{
+    margin: 5px;
+
+}
+
+img{
+    width: 500px;
+    height: auto;
+
+}
+
+.lumbalgia{
+    display: flex;
+    margin: 50px 500px 50px 500px;
+    font-size: 30px;
+    text-align: center;
+    background-color:var(--gris);
+}
+
+.escoliosis{
+    display: flex;
+    margin: 0 500px 50px 500px;
+    font-size: 30px;
+    text-align: center;
+    background-color:var(--gris);
+}
+
+.artrosis{
+    display: flex;
+    margin: 0 500px 0 500px;
+    font-size: 30px;
+    text-align: center;
+    background-color:var(--gris);
+}
+
+
+footer{
+    background-color:var(--gris);
+    color:var(--gris2);
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    background-image: url("https://medially.co/wp-content/uploads/2023/07/medidas-consultorios-medicos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

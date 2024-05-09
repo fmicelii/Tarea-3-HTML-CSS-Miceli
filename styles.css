@@ -13,7 +13,6 @@
 
 
 .cabeza{
-    display: flex;
     background-color:var(--azul);
     padding: 8px;
 }
